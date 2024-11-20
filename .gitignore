@@ -1,0 +1,86 @@
+# General
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# C++ Specific
+# Ignore build directories
+/build/
+/out/
+/dist/
+
+# Ignore object files and binaries
+*.obj
+*.o
+*.out
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+
+# Ignore CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore Qt Creator files
+*.pro.user
+*.pro.user.*
+*.qmake.stash
+*.qmake.cache
+
+# Python Specific
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.whl
+*.egg-info
+*.egg
+*.manifest
+
+# Ignore virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore pipenv, poetry, and other tools
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# IDE-Specific
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore generated libraries
+*.lib
+*.a
+*.so
+*.dll
+
+# Ignore executables
+*.exe
+*.out
+*.bin
