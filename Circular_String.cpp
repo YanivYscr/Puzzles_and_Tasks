@@ -4,7 +4,7 @@
 #include <vector>
 
 
-std::vector<int> CreateLPSArray(const std::string& pattern, std::vector<int>& lps) {
+void CreateLPSArray(const std::string& pattern, std::vector<int>& lps) {
     int len = 0;
     lps[0]  = 0; // LPS[0] initialized with 0
 
@@ -15,8 +15,6 @@ std::vector<int> CreateLPSArray(const std::string& pattern, std::vector<int>& lp
             len = lps[len - 1];
         else
             lps[i++] = 0;
-
-    return lps;
 }
 
 bool KMPSearch(const std::string& text, const std::string& pattern)  {
